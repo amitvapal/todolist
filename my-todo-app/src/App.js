@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from './Header/Header';
+import { Input } from '@mui/material';
 
 
 const App = () => {
   return (
     <React.Fragment>
     
-      <h1>My ToDo List</h1>
+      <Header />
+      <Input />
 
     </React.Fragment>
   )

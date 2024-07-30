@@ -3,7 +3,11 @@ import "./Header.css"
 
 const Header = () => {
   return (
-    <h1>I am Header</h1>
+    <React.Fragment>
+      <header className='appHeader'>
+        <h1 className='appTitle'>My ToDo List</h1>
+      </header>
+    </React.Fragment>
   )
 }
 
